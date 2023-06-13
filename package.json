@@ -6,7 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.7.0",
+    "@chakra-ui/theme-tools": "^2.0.18",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "date-fns": "^2.30.0",
+    "framer-motion": "^10.12.16",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
