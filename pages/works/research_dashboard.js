@@ -12,7 +12,7 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="Art-Social">
+  <Layout title="Research-Dashboard">
     <Container>
       <Title>
         PCR Dashboard Platform <Badge>2022-</Badge>

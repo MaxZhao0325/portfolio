@@ -4,6 +4,7 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbClassify from "../public/images/works/classify.png";
 import thumbDashboard from "../public/images/works/research_dashboard.png";
 import thumbArtSocial from "../public/images/works/art_social.png";
+import thumbAutoVeh from "../public/images/works/auto_veh.png";
 
 const Works = () => {
   return (
@@ -52,6 +53,17 @@ const Works = () => {
             A better course searching and scheduling app for UVA students
           </WorkGridItem>
         </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="auto_veh"
+            title="Autonomous Vehicle Design"
+            thumbnail={thumbAutoVeh}
+          >
+            F1/10 Autonomous Racing
+          </WorkGridItem>
+        </Section>
+
         {/* <Section delay={0.3}>
           <WorkGridItem
             id="research_dashboard"
