@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Navbar from '../navbar.js'
-import {Box, Container} from '@chakra-ui/react'
+import Head from "next/head";
+import Navbar from "../navbar.js";
+import { Box, Container } from "@chakra-ui/react";
 
-export default function Main({children, router}) {
+export default function Main({ children, router }) {
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -16,7 +16,5 @@ export default function Main({children, router}) {
         {children}
       </Container>
     </Box>
-  )
+  );
 }
-
-
