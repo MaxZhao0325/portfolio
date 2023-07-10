@@ -1,17 +1,24 @@
 import NextLink from "next/link";
 import {
-  Button,
-  Box,
+  Link,
   Container,
   Heading,
-  Image,
+  Box,
+  SimpleGrid,
+  Button,
+  List,
+  ListItem,
   useColorModeValue,
-  Link,
+  chakra,
+  Image,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { BioSection, BioYear } from "../components/bio";
+import Layout from "../components/layouts/article";
+import { GridItem } from "../components/grid-item";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export default function Page() {
   return (
@@ -124,6 +131,41 @@ export default function Page() {
           Basketball, Badminton, Pingpang
         </BioSection>
       </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Social Media
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/MaxZhao0325" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @MaxZhao0325
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://www.linkedin.com/in/hanzhangzhao/"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @hanzhangzhao
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+      </Section>
     </Container>
   );
 }
+
+export { getServerSideProps } from "../components/chakra";
