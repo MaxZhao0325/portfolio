@@ -64,19 +64,18 @@ export default function Page() {
           Intro
         </Heading>
         <Paragraph>
-          As a Computer Science & Mathematics student at the University of
-          Virginia with a 4.0 GPA, I specialize in software development across a
-          variety of languages and frameworks. I bring hands-on experience from
-          my Software Engineer Intern role at RevArt, where I successfully
-          launched a platform, Art-Social, utilizing NextJS, NodeJS, and Prisma.
-          My experience also includes a research assistantship at UVA, where I
-          designed a secure, data-visualizing dashboard system for smart home
-          applications. I've taken the lead on several projects, demonstrating
-          my ability to manage and implement complex software systems. These
-          experiences, coupled with my technical skills in languages like
-          Python, C++, Java, and JavaScript, make me a well-rounded software
-          engineer, ready to contribute to innovative solutions in a dynamic
-          organization.
+          As a Computer Science and Mathematics student at the University of
+          Virginia with a perfect 4.0 GPA, I am deeply invested in software
+          development and artificial intelligence. My educational and
+          professional experiences have equipped me with a broad skill set in
+          various programming languages and frameworks. I have engaged in
+          significant software development projects and research initiatives,
+          where I've applied my knowledge in practical and innovative ways. My
+          strong academic background, combined with hands-on experience in
+          technology and AI, demonstrates my ability to contribute effectively
+          in diverse and dynamic tech environments. My goal is to leverage my
+          skills in software engineering and AI to develop solutions that are
+          not only technically proficient but also creatively inspired.
           {/* The product that I'm most proud of is called{" "}
           <Link href="/works/classify">Classify</Link>. */}
         </Paragraph>

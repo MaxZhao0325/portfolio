@@ -5,6 +5,8 @@ import thumbClassify from "../public/images/works/classify.png";
 import thumbDashboard from "../public/images/works/research_dashboard.png";
 import thumbArtSocial from "../public/images/works/art_social.png";
 import thumbAutoVeh from "../public/images/works/auto_veh.png";
+import thumbASCI from "../public/images/works/asci.png";
+import thumbGradingTool from "../public/images/works/grading_tool.png";
 
 const Works = () => {
   return (
@@ -34,6 +36,24 @@ const Works = () => {
             proper suggestions
           </WorkGridItem>
         </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="asci-uva" title="ASCI-UVA" thumbnail={thumbASCI}>
+            An AI-based system that improved TA-student interactions and
+            optimized peer tutoring
+          </WorkGridItem>
+        </Section>
+
+        {/* <Section delay={0.1}>
+          <WorkGridItem
+            id="grading_tool"
+            title="GradingTool-UVA"
+            thumbnail={thumbGradingTool}
+          >
+            An innovative grading system that allows efficient grading for all
+            kinds of document
+          </WorkGridItem>
+        </Section> */}
       </SimpleGrid>
 
       <Section delay={0.2}>
