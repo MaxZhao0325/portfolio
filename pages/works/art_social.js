@@ -33,11 +33,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Web Application</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NextJS, NodeJS, Prisma, React Context</span>
+          <span>NextJS, NodeJS, Prisma, SQLite, React Context</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>

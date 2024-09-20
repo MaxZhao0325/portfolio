@@ -35,15 +35,15 @@ const Work = () => (
             https://researchdashboard.herokuapp.com/dataviewer/tracking/{" "}
             <ExternalLinkIcon mx="2px" />
           </Link> */}
-          In Development
+          For Internal Use Only
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux</span>
+          <span>Web Application</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>ReactJS, PHP, MySQL</span>
+          <span>ReactJS, PHP, Python, Docker, Selenium, PostgreSQL</span>
         </ListItem>
         {/* <ListItem>
             <Meta>Blogpost</Meta>

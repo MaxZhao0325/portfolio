@@ -33,11 +33,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux</span>
+          <span>Web Application</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Django, PostgreSQL, Heroku</span>
+          <span>Django, Python, PostgreSQL, Heroku, Celery</span>
         </ListItem>
         {/* <ListItem>
               <Meta>Blogpost</Meta>

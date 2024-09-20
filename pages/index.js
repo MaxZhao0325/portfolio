@@ -38,7 +38,7 @@ export default function Page() {
           <Heading as="h2" variant="page-title">
             Hanzhang Zhao
           </Heading>
-          <p>Software development / LLM / Robotics</p>
+          <p>Software development / LLM / AI Application</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,18 +64,17 @@ export default function Page() {
           Intro
         </Heading>
         <Paragraph>
-          As a Computer Science and Mathematics student at the University of
-          Virginia with a perfect 4.0 GPA, I am deeply invested in software
-          development and artificial intelligence. My educational and
-          professional experiences have equipped me with a broad skill set in
-          various programming languages and frameworks. I have engaged in
-          significant software development projects and research initiatives,
-          where I've applied my knowledge in practical and innovative ways. My
-          strong academic background, combined with hands-on experience in
-          technology and AI, demonstrates my ability to contribute effectively
-          in diverse and dynamic tech environments. My goal is to leverage my
-          skills in software engineering and AI to develop solutions that are
-          not only technically proficient but also creatively inspired.
+          I am a passionate software engineer currently pursuing an M.S. in
+          Computational Data Science at Carnegie Mellon University. With a
+          strong foundation in Computer Science and Mathematics from the
+          University of Virginia, I have gained practical experience through
+          internships at Philips and RevArt, where I developed robust software
+          solutions ranging from real-time log display tools to social media
+          management platforms. I thrive in agile environments, enjoy tackling
+          complex challenges, and am dedicated to building impactful, efficient,
+          and ethical software solutions. My expertise spans various
+          technologies, including React.js, Node.js, .NET, Django, Spring,
+          Kafka, and Docker.
           {/* The product that I'm most proud of is called{" "}
           <Link href="/works/classify">Classify</Link>. */}
         </Paragraph>
@@ -109,7 +108,12 @@ export default function Page() {
         <BioSection>
           <BioYear>2024</BioYear>
           Complete the Undergraduate Degree of Computer Science and Mathematics
-          at University of Virginia (in process)
+          at University of Virginia
+        </BioSection>
+        <BioSection>
+          <BioYear>2026</BioYear>
+          Complete the Master Degree of Computational Data Science at Carnegie
+          Mellon University (in progress)
         </BioSection>
       </Section>
 
@@ -123,11 +127,11 @@ export default function Page() {
         </BioSection>
         <BioSection>
           <BioYear>Music</BioYear>
-          Popular Music (Eason Chan)
+          Popular Music (Eason Chan, David Tao)
         </BioSection>
         <BioSection>
           <BioYear>Sports</BioYear>
-          Basketball, Badminton, Pingpang
+          Basketball, Badminton, Pingpang, Snowboarding
         </BioSection>
       </Section>
 

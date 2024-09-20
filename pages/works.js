@@ -7,6 +7,8 @@ import thumbArtSocial from "../public/images/works/art_social.png";
 import thumbAutoVeh from "../public/images/works/auto_veh.png";
 import thumbASCI from "../public/images/works/asci.png";
 import thumbGradingTool from "../public/images/works/grading_tool.png";
+import thumbPH from "../public/images/works/ph1.png";
+import thumbJobHacker from "../public/images/works/jobhacker.png";
 
 const Works = () => {
   return (
@@ -66,6 +68,23 @@ const Works = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
+            id="jobhacker"
+            title="Job Hacker"
+            thumbnail={thumbJobHacker}
+          >
+            A job aggregation tool to collect job posts from online resources
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.4}>
+          <WorkGridItem id="ph" title="Pleasure House" thumbnail={thumbPH}>
+            Intimate companion mobile/web app to fulfill physical and emotional
+            needs
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem
             id="classify"
             title="Classify"
             thumbnail={thumbClassify}
@@ -74,7 +93,7 @@ const Works = () => {
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.5}>
           <WorkGridItem
             id="auto_veh"
             title="Autonomous Vehicle Design"
